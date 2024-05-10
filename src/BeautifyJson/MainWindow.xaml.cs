@@ -1,14 +1,12 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-using ICSharpCode.AvalonEdit.Highlighting.Xshd;
 using ICSharpCode.AvalonEdit.Highlighting;
+using ICSharpCode.AvalonEdit.Highlighting.Xshd;
 using System;
 using System.IO;
 using System.Windows;
 using System.Windows.Media;
 using System.Xml;
 using Wpf.Ui.Controls;
-using System.Security.Policy;
-using System.Windows.Resources;
 
 namespace BeautifyJson;
 
@@ -69,7 +67,7 @@ public partial class MainWindow : FluentWindow
                 string fileName = (e.Data.GetData(DataFormats.FileDrop) as Array)!.GetValue(0)!.ToString()!;
 
                 Title = $"Beautify Json - {fileName}";
-                Input = File.ReadAllText(fileName);
+                BeforeBox.Text = File.ReadAllText(fileName);
             }
             catch
             {
