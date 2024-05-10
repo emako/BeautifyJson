@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifyJson", "BeautifyJson\BeautifyJson.csproj", "{02C28387-9856-42A0-85A4-F8399B12CB1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeautifyJson.CLI", "BeautifyJson.CLI\BeautifyJson.CLI.csproj", "{EDFD42A3-EFDB-42FF-9ACE-63AD1DA98850}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BeautifyJson.Shared", "BeautifyJson.Shared\BeautifyJson.Shared.shproj", "{02F886BA-77EA-441C-88C9-F1D0E96BF121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C28387-9856-42A0-85A4-F8399B12CB1F}.Debug|x64.ActiveCfg = Debug|x64
+		{02C28387-9856-42A0-85A4-F8399B12CB1F}.Debug|x64.Build.0 = Debug|x64
+		{02C28387-9856-42A0-85A4-F8399B12CB1F}.Release|x64.ActiveCfg = Release|x64
+		{02C28387-9856-42A0-85A4-F8399B12CB1F}.Release|x64.Build.0 = Release|x64
+		{EDFD42A3-EFDB-42FF-9ACE-63AD1DA98850}.Debug|x64.ActiveCfg = Debug|x64
+		{EDFD42A3-EFDB-42FF-9ACE-63AD1DA98850}.Debug|x64.Build.0 = Debug|x64
+		{EDFD42A3-EFDB-42FF-9ACE-63AD1DA98850}.Release|x64.ActiveCfg = Release|x64
+		{EDFD42A3-EFDB-42FF-9ACE-63AD1DA98850}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B17A84-B07B-4C3B-A7B1-9B8EAFBE6459}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BeautifyJson.Shared\BeautifyJson.Shared.projitems*{02c28387-9856-42a0-85a4-f8399b12cb1f}*SharedItemsImports = 5
+		BeautifyJson.Shared\BeautifyJson.Shared.projitems*{02f886ba-77ea-441c-88c9-f1d0e96bf121}*SharedItemsImports = 13
+		BeautifyJson.Shared\BeautifyJson.Shared.projitems*{edfd42a3-efdb-42ff-9ace-63ad1da98850}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

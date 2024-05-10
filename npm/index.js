@@ -1,0 +1,1 @@
+console.log('Usage: BeautifyJson.CLI.exe test.json');

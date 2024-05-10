@@ -1,0 +1,27 @@
+{
+  "name": "beautify-json-exe",
+  "version": "1.0.0",
+  "description": "Beautify JSON file in windows",
+  "files": [
+    "BeautifyJson.exe",
+    "BeautifyJson.CLI.exe",
+    "test.json"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "BeautifyJson.CLI.exe test.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emako/BeautifyJson.git"
+  },
+  "keywords": [
+    "json"
+  ],
+  "author": "ema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emako/BeautifyJson/issues"
+  },
+  "homepage": "https://github.com/emako/BeautifyJson#readme"
+}

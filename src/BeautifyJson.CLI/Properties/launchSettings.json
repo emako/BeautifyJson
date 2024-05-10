@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BeautifyJson.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\ema\\Desktop\\state.json"
+    }
+  }
+}
