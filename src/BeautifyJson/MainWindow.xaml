@@ -2,14 +2,13 @@
                   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                   xmlns:ava="clr-namespace:ICSharpCode.AvalonEdit;assembly=ICSharpCode.AvalonEdit"
-                  xmlns:ave="clr-namespace:ICSharpCode.AvalonEdit.Editing;assembly=ICSharpCode.AvalonEdit"
                   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
                   xmlns:local="clr-namespace:BeautifyJson"
                   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
                   xmlns:wui="http://schemas.lepo.co/wpfui/2022/xaml"
-                  Title="Beautify Json"
-                  Width="1000"
-                  Height="800"
+                  Title="BeautifyJson"
+                  Width="900"
+                  Height="600"
                   wui:Design.Background="{DynamicResource ApplicationBackgroundBrush}"
                   wui:Design.Foreground="{DynamicResource TextFillColorPrimaryBrush}"
                   AllowDrop="True"
@@ -65,7 +64,7 @@
                 </Border>
             </Grid>
         </Grid>
-        <wui:TitleBar Title="Beautify Json">
+        <wui:TitleBar Title="BeautifyJson">
             <wui:TitleBar.Icon>
                 <wui:ImageIcon Source=".\Assets\Images\BeautifyJson.ico" />
             </wui:TitleBar.Icon>

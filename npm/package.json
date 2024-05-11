@@ -1,7 +1,8 @@
 {
   "name": "beautify-json-exe",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Beautify JSON file in windows",
+  "readme": "README.md",
   "files": [
     "BeautifyJson.exe",
     "BeautifyJson.CLI.exe",
