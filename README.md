@@ -6,7 +6,7 @@ Windows only nowaday.
 
 ## Screen Shot
 
-![image-20240510224753907](./assets/image-20240510224753907.png)
+![image-20240510224753907](https://github.com/emako/BeautifyJson/raw/master/assets/image-20240510224753907.png)
 
 ## Formatter Methods
 
